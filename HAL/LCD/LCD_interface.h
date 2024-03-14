@@ -1,12 +1,12 @@
 /*
- * main.c
+ * LCD_interface.h
  *
  *  Created on: 14 Mar 2024
  *      Author: mohamed eldeeb
  */
 
-#ifndef LCD_INT_H_
-#define LCD_INT_H_
+#ifndef LCD_INTERFACE_H_
+#define LCD_INTERFACE_H_
 
 #include "../../LIB/BIT_MATH.h"
 #include "../../LIB/STD_LIB.h"
@@ -38,4 +38,4 @@ void HLCD_vSendData_pos(u8 A_u8Data ,s32 A_s32RowNumber,s32 A_s32ColumnNumber);
 void HLCD_vSendString_pos(s8 *A_s8String ,s32 A_s32RowNumber,s32 A_s32ColumnNumber);
 void HLCD_vSendNumber_pos(s32 A_s32Number ,s32 A_s32RowNumber,s32 A_s32ColumnNumber);
 
-#endif /* LCD_INT_H_ */
+#endif /* LCD_INTERFACE_H_ */

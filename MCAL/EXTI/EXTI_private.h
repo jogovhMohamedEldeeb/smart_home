@@ -1,10 +1,9 @@
-/*************************************************************************/
-/* Author        : Omar Yamany                                    		 */
-/* File          : EXTI_private.h                                  	     */
-/* Date          : Mar 27, 2023	                                         */
-/* Version       : V1                                                    */
-/* GitHub        : https://github.com/Piistachyoo             		     */
-/*************************************************************************/
+/*
+ * EXTI_private.h
+ *
+ *  Created on: 14 Mar 2024
+ *      Author: mohamed eldeeb
+ */
 
 #ifndef EXTI_EXTI_PRIVATE_H_
 #define EXTI_EXTI_PRIVATE_H_

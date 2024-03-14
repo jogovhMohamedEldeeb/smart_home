@@ -1,5 +1,5 @@
 /*
- * main.c
+ * KPD_program.c
  *
  *  Created on: 14 Mar 2024
  *      Author: mohamed eldeeb
@@ -9,9 +9,9 @@
 #include "../../LIB/BIT_MATH.h"
 #include "../../LIB/STD_LIB.h"
 #include "../../MCAL/DIO/DIO_Interface.h"
-#include "KPD_INT.h"
 #include <avr/io.h>
 #include <util/delay.h>
+#include "KPD_interfcae.h"
 
 u8 static keys[4][4] = {
         {'7', '8', '9', '/'},

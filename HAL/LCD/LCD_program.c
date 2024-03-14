@@ -1,9 +1,10 @@
 /*
- * main.c
+ * LCD_program.c
  *
  *  Created on: 14 Mar 2024
  *      Author: mohamed eldeeb
  */
+
 
 /* lib */
 #include <util/delay.h>
@@ -13,7 +14,7 @@
 /* mcal */
 #include "../../MCAL/DIO/DIO_Interface.h"
 
-#include "LCD_INT.h"
+#include "LCD_interface.h"
 
 
 /* init - send command - send data */

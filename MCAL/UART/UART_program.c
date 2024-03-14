@@ -1,9 +1,10 @@
 /*
- * main.c
+ * UART_program.c
  *
  *  Created on: 14 Mar 2024
  *      Author: mohamed eldeeb
  */
+
 
 #include "UART_interface.h"
 

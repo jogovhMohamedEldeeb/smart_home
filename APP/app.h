@@ -1,5 +1,5 @@
 /*
- * main.c
+ * app.h
  *
  *  Created on: 14 Mar 2024
  *      Author: mohamed eldeeb
@@ -14,13 +14,14 @@
 #include "../MCAL/ADC/ADC_Interface.h"
 #include "../MCAL/GIE/GIE_interface.h"
 #include "../MCAL/UART/UART_interface.h"
-#include "../HAL/KPD/KPD_INT.h"
-#include "../HAL/LCD/LCD_INT.h"
 #include "../HAL/LDR/LDR_Interface.h"
 #include "../HAL/LM35/LM35_Interface.h"
 #include <util/delay.h>
 #include <stdio.h>
 #include <stdlib.h>
+
+#include "../HAL/KPD/KPD_interfcae.h"
+#include "../HAL/LCD/LCD_interface.h"
 
 typedef enum{
 	Lamp_OFF,

@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../HAL/KPD/KPD_PRG.c 
+../HAL/KPD/KPD_program.c 
 
 OBJS += \
-./HAL/KPD/KPD_PRG.o 
+./HAL/KPD/KPD_program.o 
 
 C_DEPS += \
-./HAL/KPD/KPD_PRG.d 
+./HAL/KPD/KPD_program.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

@@ -1,5 +1,5 @@
 /*
- * main.c
+ * LDR_program.c
  *
  *  Created on: 14 Mar 2024
  *      Author: mohamed eldeeb

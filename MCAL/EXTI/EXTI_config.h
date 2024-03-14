@@ -1,5 +1,5 @@
 /*
- * main.c
+ * EXTI_config.h
  *
  *  Created on: 14 Mar 2024
  *      Author: mohamed eldeeb

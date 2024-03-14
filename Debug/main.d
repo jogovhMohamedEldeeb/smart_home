@@ -12,12 +12,13 @@ main.o main.o: ../main.c ../APP/app.h ../APP/../MCAL/DIO/DIO_Interface.h \
   ../APP/../MCAL/UART/UART_interface.h ../APP/../MCAL/UART/UART_config.h \
   ../APP/../MCAL/UART/UART_private.h \
   ../APP/../MCAL/UART/../../LIB/BIT_MATH.h \
-  ../APP/../MCAL/UART/../../LIB/STD_LIB.h ../APP/../HAL/KPD/KPD_INT.h \
+  ../APP/../MCAL/UART/../../LIB/STD_LIB.h \
+  ../APP/../HAL/LDR/LDR_Interface.h ../APP/../HAL/LM35/LM35_Interface.h \
+  ../APP/../HAL/KPD/KPD_interfcae.h \
   ../APP/../HAL/KPD/../../LIB/BIT_MATH.h \
-  ../APP/../HAL/KPD/../../LIB/STD_LIB.h ../APP/../HAL/LCD/LCD_INT.h \
+  ../APP/../HAL/KPD/../../LIB/STD_LIB.h ../APP/../HAL/LCD/LCD_interface.h \
   ../APP/../HAL/LCD/../../LIB/BIT_MATH.h \
-  ../APP/../HAL/LCD/../../LIB/STD_LIB.h ../APP/../HAL/LDR/LDR_Interface.h \
-  ../APP/../HAL/LM35/LM35_Interface.h
+  ../APP/../HAL/LCD/../../LIB/STD_LIB.h
 
 ../APP/app.h:
 
@@ -59,18 +60,18 @@ main.o main.o: ../main.c ../APP/app.h ../APP/../MCAL/DIO/DIO_Interface.h \
 
 ../APP/../MCAL/UART/../../LIB/STD_LIB.h:
 
-../APP/../HAL/KPD/KPD_INT.h:
+../APP/../HAL/LDR/LDR_Interface.h:
+
+../APP/../HAL/LM35/LM35_Interface.h:
+
+../APP/../HAL/KPD/KPD_interfcae.h:
 
 ../APP/../HAL/KPD/../../LIB/BIT_MATH.h:
 
 ../APP/../HAL/KPD/../../LIB/STD_LIB.h:
 
-../APP/../HAL/LCD/LCD_INT.h:
+../APP/../HAL/LCD/LCD_interface.h:
 
 ../APP/../HAL/LCD/../../LIB/BIT_MATH.h:
 
 ../APP/../HAL/LCD/../../LIB/STD_LIB.h:
-
-../APP/../HAL/LDR/LDR_Interface.h:
-
-../APP/../HAL/LM35/LM35_Interface.h:

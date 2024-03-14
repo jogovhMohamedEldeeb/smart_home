@@ -1,10 +1,9 @@
 /*
- * main.c
+ * EXTI_program.c
  *
  *  Created on: 14 Mar 2024
  *      Author: mohamed eldeeb
  */
-
 
 #include "EXTI_interface.h"
 

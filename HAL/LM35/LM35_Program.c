@@ -1,10 +1,9 @@
 /*
- * main.c
+ * LM35_program.c
  *
  *  Created on: 14 Mar 2024
  *      Author: mohamed eldeeb
  */
-
 #include "../../LIB/BIT_MATH.h"
 #include "../../LIB/STD_LIB.h"
 

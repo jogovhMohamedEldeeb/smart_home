@@ -1,9 +1,10 @@
 /*
- * main.c
+ * UART_private.h
  *
  *  Created on: 14 Mar 2024
  *      Author: mohamed eldeeb
  */
+
 
 #ifndef MCAL_ATMEGA32_UART_UART_PRIVATE_H_
 #define MCAL_ATMEGA32_UART_UART_PRIVATE_H_
